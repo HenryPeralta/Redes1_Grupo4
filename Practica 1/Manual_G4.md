@@ -1,12 +1,14 @@
-﻿Universidad San Carlos de Guatemala <br>
-Facultad de Ingeniería <br> 
-Escuela de Ciencias y Sistemas <br>
-Redes de computadoras 1 sección Q <br>
-Ing. Allan Alberto Morataya Gómez <br>
-Aux. Jorge David Ambrosio Ventura <br>
+﻿### Universidad San Carlos de Guatemala <br>
+### Facultad de Ingeniería <br> 
+### Escuela de Ciencias y Sistemas <br>
+### Redes de computadoras 1 sección Q <br>
+### Ing. Allan Alberto Morataya Gómez <br>
+### Aux. Jorge David Ambrosio Ventura <br>
 <br>
 <br>
-### <center>Manual de configuración practica 1 </center>
+
+### Manual de configuración practica 1
+
 <br>
 <br>
   
@@ -20,6 +22,7 @@ Aux. Jorge David Ambrosio Ventura <br>
 
 <br>
 <br>  
+<br>
 
 # Manual de configuración
 
@@ -59,6 +62,8 @@ Una vez en la consola usaremos el formato de subred de tipo C con sub mascara de
 
 
 ![enter image description here](https://i.ibb.co/8jcbBsn/5.png)
+
+Conectar la VPC con el switch
 
 ![enter image description here](https://i.ibb.co/G3grLCc/7.png)
 
