@@ -1,9 +1,9 @@
-﻿#### Universidad San Carlos de Guatemala 
-#### Facultad de Ingeniería 
-#### Escuela de Ciencias y Sistemas 
-#### Redes de computadoras 1 sección Q 
-#### Ing. Allan Alberto Morataya Gómez 
-#### Aux. Jorge David Ambrosio Ventura 
+﻿Universidad San Carlos de Guatemala <br>
+Facultad de Ingeniería <br>
+Escuela de Ciencias y Sistemas <br>
+Redes de computadoras 1 sección Q <br>
+Ing. Allan Alberto Morataya Gómez <br>
+Aux. Jorge David Ambrosio Ventura <br>
 <br>
 <br>
 
