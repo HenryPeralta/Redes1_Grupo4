@@ -1,0 +1,27 @@
+Aug 16 00:44:24.289 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 16 00:44:24.290 HYPERVISOR: Started on IP = localhost, TCP port = 49864.
+Aug 16 00:44:24.784 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 16 00:44:24.785 HYPERVISOR: exec_cmd: hypervisor working_dir D:\U\Redes\Laboratorio\Proyecto 1\Proyecto 1\project-files\dynamips 
+Aug 16 00:44:24.785 GENERAL: working_dir=D:\U\Redes\Laboratorio\Proyecto 1\Proyecto 1\project-files\dynamips
+Aug 16 00:44:24.787 HYPERVISOR: exec_cmd: hypervisor working_dir D:\U\Redes\Laboratorio\Proyecto 1\Proyecto 1\project-files\dynamips\98716efc-cbf6-439b-8c67-48be21a94046 
+Aug 16 00:44:24.787 GENERAL: working_dir=D:\U\Redes\Laboratorio\Proyecto 1\Proyecto 1\project-files\dynamips\98716efc-cbf6-439b-8c67-48be21a94046
+Aug 16 00:44:24.789 HYPERVISOR: exec_cmd: vm create ESW9 9 c3725 
+Aug 16 00:44:24.790 VM: VM ESW9 created.
+Aug 16 00:44:24.792 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW9 5008 
+Aug 16 00:44:24.793 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW9 
+Aug 16 00:44:24.793 HYPERVISOR: exec_cmd: vm set_disk0 ESW9 1 
+Aug 16 00:44:24.793 HYPERVISOR: exec_cmd: vm set_exec_area ESW9 64 
+Aug 16 00:44:24.795 HYPERVISOR: exec_cmd: vm get_status ESW9 
+Aug 16 00:44:24.795 HYPERVISOR: exec_cmd: vm set_idle_pc ESW9 0x60bf8ba0 
+Aug 16 00:44:24.797 HYPERVISOR: exec_cmd: vm set_ios ESW9 C:/Users/Usuario1/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Aug 16 00:44:24.798 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW9 c209.3960.0000 
+Aug 16 00:44:24.799 HYPERVISOR: exec_cmd: vm set_nvram ESW9 256 
+Aug 16 00:44:24.799 HYPERVISOR: exec_cmd: vm get_status ESW9 
+Aug 16 00:44:24.799 HYPERVISOR: exec_cmd: vm slot_add_binding ESW9 1 0 NM-16ESW 
+Aug 16 00:44:26.853 HYPERVISOR: exec_cmd: vm get_status ESW9 
+Aug 16 00:44:26.855 HYPERVISOR: exec_cmd: vm extract_config ESW9 
+Aug 16 00:44:26.928 HYPERVISOR: exec_cmd: vm delete ESW9 
+Aug 16 00:44:26.928 VM: VM ESW9 destroyed.
+Aug 16 00:44:26.928 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 16 00:44:27.341 HYPERVISOR: Stopped.
+Aug 16 00:44:27.341 GENERAL: reset done.
