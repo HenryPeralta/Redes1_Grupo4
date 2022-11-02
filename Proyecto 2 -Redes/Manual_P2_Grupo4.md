@@ -74,99 +74,99 @@ Se configuraron las vlans y los modos de acceso a las vpcs y se configuro el rou
 
 ### Comandos utilizados
 #### Comando HSRP
-Configuración router activo
-Conf t •
-Interface [tipo]#/#
-No shutdown
-Standby # ip [ip-virtual] •
-Standby # priority [num] •
-Standby # preempt •
-Exit
+Configuración router activo <br>
+Conf t • <br>
+Interface [tipo]#/# <br>
+No shutdown <br>
+Standby # ip [ip-virtual] • <br>
+Standby # priority [num] • <br>
+Standby # preempt • <br>
+Exit <br>
 
-Configuración router en espera
-Conf t
-Interface [tipo]#/#
-No shutdown
-Standby # ip [ip-virtual]
-Standby # priority [num]
-exit
+Configuración router en espera <br>
+Conf t <br>
+Interface [tipo]#/# <br>
+No shutdown <br>
+Standby # ip [ip-virtual] <br>
+Standby # priority [num] <br>
+exit <br>
 
-ver la configuración
-Show running-config
-Show standby brief
+ver la configuración <br>
+Show running-config <br>
+Show standby brief <br>
 
 #### Comando GLBP
 
-Esquema
-Conf t
-Int s#/#
-Ip address
-No shutdown
-End
-Write
+Esquema <br>
+Conf t <br>
+Int s#/# <br>
+Ip address <br>
+No shutdown <br>
+End <br>
+Write <br>
 
 #### Configuracion routing estatico
 
-Conf t
-iP route [dirección de red] [máscara subred] [dirección ip de la interfaz destino o de salida]
-exit
+Conf t <br>
+iP route [dirección de red] [máscara subred] [dirección ip de la interfaz destino o de salida] <br>
+exit <br>
 
-Ver la configuración del enrutamiento
-show ip route
-show ip int brief
+Ver la configuración del enrutamiento <br>
+show ip route <br>
+show ip int brief <br>
 
 #### Routing RIP
-Conf t
-router rip
-version 2
-network [dirección de red a la que se conecta]
-exit
+Conf t <br>
+router rip <br>
+version 2 <br>
+network [dirección de red a la que se conecta] <br>
+exit <br>
 
 #### Configurar routing EIGRP
 
-Conf t
-router eigrp [número entre 1 y 65535]
-network [dirección de subred] [bits restantes de la máscara de red]
-exit
-Conf t
-router eigrp 10
-network 192.168.12.0 0.0.0.255
-exit
+Conf t <br>
+router eigrp [número entre 1 y 65535] <br>
+network [dirección de subred] [bits restantes de la máscara de red] <br>
+exit <br>
+Conf t <br>
+router eigrp 10 <br>
+network 192.168.12.0 0.0.0.255 <br>
+exit <br>
 
 #### Modo Acceso
-Conf t
-Int f#/#
-Switchport mode Access
-Switchport Access vlan #
-Do wri
-End
+Conf t <br>
+Int f#/# <br>
+Switchport mode Access <br>
+Switchport Access vlan # <br>
+Do wri <br>
+End <br>
 
 #### Modo Troncal
-Conf t
-Int f#/#
-Switchport mode trunk
-Switchport trunk allowed vlan 1,#,#,1002-1005
-Do wri
-End
+Conf t <br>
+Int f#/# <br>
+Switchport mode trunk <br>
+Switchport trunk allowed vlan 1,#,#,1002-1005 <br>
+Do wri <br>
+End <br>
 
 #### Configuracion VTP
-Conf t
-Vtp domain nombredeldominio
-Vtp password contraseñadeldominio
-Vtp mode server|client|transparent
-Do wri
-End
+Conf t <br>
+Vtp domain nombredeldominio <br>
+Vtp password contraseñadeldominio <br>
+Vtp mode server|client|transparent <br>
+Do wri <br>
+End <br>
 
 #### Port Channel
-Conf t
-Interfaces range f#/#-#
-Channel-group # mode on
-Do wri
-End
+Conf t <br>
+Interfaces range f#/#-# <br>
+Channel-group # mode on <br>
+Do wri <br>
+End <br>
 
 #### Configuracion vlan
-Conf t
-Vlan numerodevlan
-Name nombredevlan
-Do wri
-End
+Conf t <br>
+Vlan numerodevlan <br>
+Name nombredevlan <br>
+Do wri <br>
+End <br>
