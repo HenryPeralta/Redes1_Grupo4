@@ -37,7 +37,7 @@ Aux. Jorge David Ambrosio Ventura <br>
 Antes de empezar, todas las PC/Laptop deben estar conectadas con su VPN y verificar que haya ping entre sus maquinas nativas.
 
 ### Dispositivos nativos de GNS3 
-![enter image description here](https://i.ibb.co/qgnpGwC/1.png)
+![enter image description here](Imagen1.png)
 
 ### Segundo paso
 Hay que configurar el UDP Tunnel en el dispositivo cloud

@@ -1,0 +1,31 @@
+Oct 17 09:28:27.694 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 17 09:28:27.694 HYPERVISOR: Started on IP = localhost, TCP port = 55605.
+Oct 17 09:28:27.697 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 17 09:28:27.697 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\CNOC-FRT\Documents\Labs GNS3\Proyecto 2 - Suseth - Usac\Proyecto 2\project-files\dynamips 
+Oct 17 09:28:27.698 GENERAL: working_dir=C:\Users\CNOC-FRT\Documents\Labs GNS3\Proyecto 2 - Suseth - Usac\Proyecto 2\project-files\dynamips
+Oct 17 09:28:27.698 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\CNOC-FRT\Documents\Labs GNS3\Proyecto 2 - Suseth - Usac\Proyecto 2\project-files\dynamips\f74965dd-296e-4510-a13f-61332427795e 
+Oct 17 09:28:27.699 GENERAL: working_dir=C:\Users\CNOC-FRT\Documents\Labs GNS3\Proyecto 2 - Suseth - Usac\Proyecto 2\project-files\dynamips\f74965dd-296e-4510-a13f-61332427795e
+Oct 17 09:28:27.699 HYPERVISOR: exec_cmd: vm create R6 6 c3725 
+Oct 17 09:28:27.700 VM: VM R6 created.
+Oct 17 09:28:27.700 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5005 
+Oct 17 09:28:27.700 HYPERVISOR: exec_cmd: c3725 get_mac_addr R6 
+Oct 17 09:28:27.700 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Oct 17 09:28:27.701 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Oct 17 09:28:27.701 HYPERVISOR: exec_cmd: vm get_status R6 
+Oct 17 09:28:27.701 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x602467a4 
+Oct 17 09:28:27.702 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/CNOC-FRT/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25.image 
+Oct 17 09:28:27.702 HYPERVISOR: exec_cmd: c3725 set_mac_addr R6 c206.2340.0000 
+Oct 17 09:28:27.702 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Oct 17 09:28:27.702 HYPERVISOR: exec_cmd: vm get_status R6 
+Oct 17 09:28:27.702 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-1FE-TX 
+Oct 17 09:28:34.234 HYPERVISOR: exec_cmd: nio create_udp udp-463b3d9b-a1cf-4ee3-99f5-1261af9d9716 10038 127.0.0.1 10039 
+Oct 17 09:28:34.476 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-463b3d9b-a1cf-4ee3-99f5-1261af9d9716 
+Oct 17 09:28:34.476 HYPERVISOR: exec_cmd: vm get_status R6 
+Oct 17 09:28:35.496 HYPERVISOR: exec_cmd: nio create_udp udp-fbd13e2d-06ce-4e3a-b6c9-aeb7fdaa7451 10066 127.0.0.1 10067 
+Oct 17 09:28:35.499 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 1 udp-fbd13e2d-06ce-4e3a-b6c9-aeb7fdaa7451 
+Oct 17 09:28:35.499 HYPERVISOR: exec_cmd: vm get_status R6 
+Oct 17 10:12:51.893 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Oct 17 10:12:51.894 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\CNOC-FRT\Documents\Labs GNS3\Proyecto 2 - Suseth - Usac\Proyecto 2\project-files\dynamips\c3725-adventerprisek9-mz.124-25.image-128.ghost 
+Oct 17 10:12:51.895 HYPERVISOR: exec_cmd: vm get_status R6 
+Oct 17 10:12:51.895 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Oct 17 10:12:51.896 HYPERVISOR: exec_cmd: vm start R6 
