@@ -32,6 +32,7 @@ Aux. Jorge David Ambrosio Ventura <br>
 
 ### Topología 1 (Red Wan)
 ![enter image description here](https://i.ibb.co/54gwGNv/topologia1.png)
+
 En la topología 1 tenemos la Red Wan, la cual servira como interconexion de centro de datos y oficina central.
 La Red Wan  que se utilizo fue la 10.4.0.0/16.
 
