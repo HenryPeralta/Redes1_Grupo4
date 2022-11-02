@@ -1,0 +1,19 @@
+Oct 15 00:33:52.125 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 15 00:33:52.126 HYPERVISOR: Started on IP = localhost, TCP port = 51170.
+Oct 15 00:33:52.630 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 15 00:33:52.630 HYPERVISOR: exec_cmd: hypervisor working_dir F:\Documentos\Material de Estudio - Cursos - Universidad\Laboratorios GNS3\Proyecto 2 - Suseth - Usac\Proyecto 2\project-files\dynamips 
+Oct 15 00:33:52.631 GENERAL: working_dir=F:\Documentos\Material de Estudio - Cursos - Universidad\Laboratorios GNS3\Proyecto 2 - Suseth - Usac\Proyecto 2\project-files\dynamips
+Oct 15 00:33:52.631 HYPERVISOR: exec_cmd: ethsw create Interconexión 
+Oct 15 00:33:54.998 HYPERVISOR: exec_cmd: nio create_udp udp-63b82661-1581-4a0c-9dbf-faaac3a18794 10000 127.0.0.1 10001 
+Oct 15 00:33:55.000 HYPERVISOR: exec_cmd: ethsw add_nio Interconexión udp-63b82661-1581-4a0c-9dbf-faaac3a18794 
+Oct 15 00:33:55.013 HYPERVISOR: exec_cmd: ethsw set_access_port Interconexión udp-63b82661-1581-4a0c-9dbf-faaac3a18794 1 
+Oct 15 00:33:55.326 HYPERVISOR: exec_cmd: nio create_udp udp-dd0a8077-2ba2-4c1e-9b1e-f79211932b1f 10004 127.0.0.1 10005 
+Oct 15 00:33:55.327 HYPERVISOR: exec_cmd: ethsw add_nio Interconexión udp-dd0a8077-2ba2-4c1e-9b1e-f79211932b1f 
+Oct 15 00:33:55.358 HYPERVISOR: exec_cmd: ethsw set_access_port Interconexión udp-dd0a8077-2ba2-4c1e-9b1e-f79211932b1f 1 
+Oct 15 00:33:56.833 HYPERVISOR: exec_cmd: nio create_udp udp-c7cbaa87-3dd7-478a-8363-f99989c507f3 10033 127.0.0.1 10032 
+Oct 15 00:33:56.834 HYPERVISOR: exec_cmd: ethsw add_nio Interconexión udp-c7cbaa87-3dd7-478a-8363-f99989c507f3 
+Oct 15 00:33:56.862 HYPERVISOR: exec_cmd: ethsw set_access_port Interconexión udp-c7cbaa87-3dd7-478a-8363-f99989c507f3 1 
+Oct 15 00:52:48.377 HYPERVISOR: exec_cmd: ethsw delete Interconexión 
+Oct 15 00:52:48.450 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 15 00:52:48.716 HYPERVISOR: Stopped.
+Oct 15 00:52:48.716 GENERAL: reset done.
